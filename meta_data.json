@@ -1,0 +1,12 @@
+{
+    "categories": {
+        "0": "media",
+        "1": "social network",
+        "2": "blog"
+    },
+    "description": "Features:\n\n- Screenshots from any website\n- Screenshots from a specific element of the website\n- Screenshots with custom width and height\n\nRequisite:\n\n- Access key from https://apiflash.com",
+    "image": "//meta-l.cdn.bubble.io/f1689050680640x714138518315555100/1200px-GNOME_Screenshot_icon_2018.svg.png",
+    "license": "open_source",
+    "name": "Screenshot web",
+    "sa_node_version": 18
+}

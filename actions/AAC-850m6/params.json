@@ -1,0 +1,71 @@
+{
+    "category": "plugins",
+    "display": "Screenshot",
+    "fields": {
+        "AAE": {
+            "caption": "Website URL",
+            "editor": "DynamicValue",
+            "name": "url",
+            "rank": 0,
+            "value": "text"
+        },
+        "AAF": {
+            "caption": "Delay in seconds",
+            "default_val": "0",
+            "editor": "Dropdown",
+            "name": "delay",
+            "options": "0,1,2,3,4,5",
+            "rank": 1
+        },
+        "AAG": {
+            "caption": "Format",
+            "default_val": "webp",
+            "editor": "Dropdown",
+            "name": "format",
+            "options": "jpeg,png,webp",
+            "rank": 2
+        },
+        "AAH": {
+            "caption": "Quality",
+            "default_val": "80",
+            "editor": "Dropdown",
+            "name": "quality",
+            "options": "50,80,100",
+            "rank": 3
+        },
+        "AAI": {
+            "caption": "Page width",
+            "default_val": 1280,
+            "editor": "DynamicValue",
+            "name": "width",
+            "optional": false,
+            "rank": 5,
+            "value": "number"
+        },
+        "AAJ": {
+            "caption": "Page height",
+            "default_val": 720,
+            "editor": "DynamicValue",
+            "name": "height",
+            "optional": false,
+            "rank": 6,
+            "value": "number"
+        },
+        "AAR": {
+            "caption": "Adjust the page width and height to get the desktop, tablet or mobile dimensions",
+            "editor": "Label",
+            "name": "description page width",
+            "rank": 4
+        }
+    },
+    "return_value": {
+        "AAL": {
+            "caption": "image",
+            "name": "image",
+            "rank": 0,
+            "value": "image"
+        }
+    },
+    "type": "server_side",
+    "use_packages": false
+}
